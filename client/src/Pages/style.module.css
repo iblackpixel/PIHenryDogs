@@ -1,0 +1,51 @@
+.dogcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  border: 2px;
+  padding: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+.BGP {
+  background-image: url("../components/images/perros2amplio.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.auxFormC {
+  height: 430px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  border: 2px solid;
+  border-color: rgb(72, 77, 109);
+}
+.formContainer {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(239, 233, 244, 0.805);
+}
+
+.filters {
+  background-color: rgba(239, 233, 244, 0.805);
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+.filters2 {
+  width: 80%;
+}

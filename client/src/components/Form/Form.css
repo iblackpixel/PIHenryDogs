@@ -1,0 +1,8 @@
+.form {
+  height: 300px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

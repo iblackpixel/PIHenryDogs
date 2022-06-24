@@ -1,0 +1,5 @@
+export const GET_DOGS = "GET_DOGS";
+export const GET_DOGS_ERROR = "GET_DOGS_ERROR";
+export const GET_TEMPERAMENTS = "GET_TEMPERAMENTS";
+export const GET_TEMPERAMENTS_ERROR = "GET_TEMPERAMENTS_ERROR";
+export const GET_BREED = "GET_BREED";

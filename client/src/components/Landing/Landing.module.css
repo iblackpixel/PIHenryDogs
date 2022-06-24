@@ -1,0 +1,71 @@
+.BGP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/perros2amplio.jpg");
+}
+
+.title {
+  height: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 90px;
+  color: rgb(72, 77, 109);
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 3%;
+  background-color: rgba(239, 233, 244, 0.805);
+}
+
+.btnCont {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 12%;
+}
+
+.btnHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  width: 150%;
+  font-size: 2.2em;
+  color: rgb(72, 77, 109);
+  border-radius: 4%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 35%;
+  padding: 3%;
+  background-color: rgba(239, 233, 244, 0.805);
+}
+
+.caratula {
+  height: 200px;
+  background-color: rgb(72, 77, 109);
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: rgb(239, 233, 244);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0;
+  padding: 3%;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+}
+.pocket {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}

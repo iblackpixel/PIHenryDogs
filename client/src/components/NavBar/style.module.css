@@ -1,0 +1,71 @@
+.NavCont {
+  height: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(239, 233, 244, 0.805);
+}
+.pocket {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerbtn {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+:visited {
+  color: rgba(72, 77, 109, 0);
+  text-decoration: none;
+}
+
+.navbar {
+  height: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(239, 233, 244, 0.805);
+}
+
+.logo {
+  font-family: Haettenschweiler, Impact, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  font-size: 64px;
+  color: rgb(72, 77, 109);
+}
+:visited {
+  color: rgb(72, 77, 109);
+  text-decoration: none;
+}
+.logosp {
+  font-family: Haettenschweiler;
+  font-size: large;
+  color: rgb(72, 77, 109);
+}
+.logosp:visited {
+  color: rgb(72, 77, 109);
+  text-decoration: none;
+}
+
+.inpt {
+  color: rgb(239, 233, 244);
+  transition: 1s;
+}
+.inpt :hover {
+  color: rgb(72, 77, 109);
+}
+.inpt :visited {
+  text-decoration: none;
+}
