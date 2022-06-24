@@ -7,7 +7,7 @@ import {
   GET_TEMPERAMENTS_ERROR,
 } from "../constants/constants";
 
-const puertoBack = "http://localhost:3001/";
+const puertoBack = "https://hidden-fortress-17520.herokuapp.com/";
 
 export const getDogs = () => async (dispatch) => {
   try {
@@ -30,7 +30,9 @@ export const getDogs = () => async (dispatch) => {
 
 export const getBreed = (id) => async (dispatch) => {
   try {
-    const json = await axios.get("http://localhost:3001/dogs/" + id);
+    const json = await axios.get(
+      "https://hidden-fortress-17520.herokuapp.com/dogs/" + id
+    );
     dispatch({
       type: GET_BREED,
       payload: json.data,

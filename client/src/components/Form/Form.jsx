@@ -57,7 +57,10 @@ export function Form(props) {
 
   let handleSubmit = async (e) => {
     e.preventDefault();
-    const doggo = await Axios.post("http://localhost:3001/dog/", input);
+    const doggo = await Axios.post(
+      "https://hidden-fortress-17520.herokuapp.com/dog/",
+      input
+    );
     alert("Raza creada");
     history.push("/home");
   };
